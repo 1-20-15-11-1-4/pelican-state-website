@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -79,7 +80,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Email</p>
-                    <p className="text-muted-foreground">hello@pelicanstatebookkeeping.com</p>
+                    <p className="text-muted-foreground">PSBookkeeping@gmail.com</p>
                   </div>
                 </div>
                 
@@ -89,7 +90,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Phone</p>
-                    <p className="text-muted-foreground">(225) 555-0123</p>
+                    <p className="text-muted-foreground">(985) 258-5262</p>
                   </div>
                 </div>
                 
