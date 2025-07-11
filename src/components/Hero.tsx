@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-pelican-bayou.jpg";
 
@@ -23,8 +24,15 @@ const Hero = () => {
         <Button 
           size="lg" 
           className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-3 text-lg"
+          asChild
         >
-          Schedule Your Free Call
+          <a 
+            href="https://calendar.google.com/calendar/appointments/YOUR_BOOKING_ID" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            Schedule Your Free Call
+          </a>
         </Button>
       </div>
     </section>

@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -62,8 +61,17 @@ const Contact = () => {
                 />
               </div>
               
-              <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
-                Schedule Free Consultation
+              <Button 
+                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground"
+                asChild
+              >
+                <a 
+                  href="https://calendar.google.com/calendar/appointments/YOUR_BOOKING_ID" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  Schedule Free Consultation
+                </a>
               </Button>
             </CardContent>
           </Card>
@@ -129,8 +137,18 @@ const Contact = () => {
               <p className="text-sm text-muted-foreground mb-4">
                 Not sure which package is right for you? Schedule a free 30-minute consultation to discuss your needs.
               </p>
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                Book Free Call
+              <Button 
+                variant="outline" 
+                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                asChild
+              >
+                <a 
+                  href="https://calendar.google.com/calendar/appointments/YOUR_BOOKING_ID" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  Book Free Call
+                </a>
               </Button>
             </div>
           </div>

@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import pelicanLogo from "@/assets/pelican-logo.png";
 
@@ -29,8 +30,17 @@ const Header = () => {
           </nav>
 
           {/* CTA Button */}
-          <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
-            Book a Free Consultation
+          <Button 
+            className="bg-primary hover:bg-primary/90 text-primary-foreground"
+            asChild
+          >
+            <a 
+              href="https://calendar.google.com/calendar/appointments/YOUR_BOOKING_ID" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Book a Free Consultation
+            </a>
           </Button>
         </div>
       </div>
