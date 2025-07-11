@@ -52,6 +52,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Louisiana-inspired custom colors
+				'bayou': {
+					DEFAULT: 'hsl(var(--bayou-green))',
+					light: 'hsl(var(--bayou-light))'
+				},
+				'pelican': 'hsl(var(--pelican-blue))',
+				'magnolia': 'hsl(var(--magnolia-cream))',
+				'earth': 'hsl(var(--earth-warm))',
+				'marsh': 'hsl(var(--marsh-mist))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
