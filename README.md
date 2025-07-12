@@ -1,73 +1,47 @@
-# Welcome to your Lovable project
+# Pelican State Bookkeeping Website
 
-## Project info
+A professional website for Pelican State Bookkeeping, a Louisiana-based bookkeeping service for small businesses.
 
-**URL**: https://lovable.dev/projects/5ea44f91-b2ed-491c-9abd-7929578df2a9
+## Features
 
-## How can I edit this code?
+- **Modern Design**: Built with React, TypeScript, and Tailwind CSS
+- **Professional UI**: Uses shadcn/ui components for a polished look
+- **Booking Integration**: Direct links to Google Calendar for consultations
+- **Responsive**: Works perfectly on desktop, tablet, and mobile
+- **Louisiana Theme**: Pelican branding with bayou imagery
 
-There are several ways of editing your application.
+## Sections
 
-**Use Lovable**
+- Hero with call-to-action
+- Services offered
+- Pricing packages
+- Client testimonials
+- About the company
+- Contact information
+- Footer with additional links
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5ea44f91-b2ed-491c-9abd-7929578df2a9) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend**: React 18 with TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Build Tool**: Vite
+- **Routing**: React Router
+- **Deployment**: GitHub Pages
 
-**Use your preferred IDE**
+## Live Website
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Visit the live website: [https://1-20-15-11-1-4.github.io/pelican-state-website/](https://1-20-15-11-1-4.github.io/pelican-state-website/)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Local Development
 
-Follow these steps:
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start development server: `npm run dev`
+4. Build for production: `npm run build`
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Contact
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/5ea44f91-b2ed-491c-9abd-7929578df2a9) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- **Email**: PSBookkeeping@gmail.com
+- **Phone**: (985) 258-5262
+- **Location**: Louisiana, USA (Serving Nationwide)
