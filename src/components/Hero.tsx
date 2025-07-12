@@ -27,7 +27,7 @@ const Hero = () => {
           asChild
         >
           <a 
-            href="https://calendar.google.com/calendar/appointments/YOUR_BOOKING_ID" 
+            href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3IZ2Q3u1ZYN7rvLRHXgYzKDqmaQFTrJbqzNLLvFaKqvaacrG3ro0t-CqLCVx5gsyd7w70Hz38x" 
             target="_blank" 
             rel="noopener noreferrer"
           >
